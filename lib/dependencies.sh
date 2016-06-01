@@ -4,7 +4,6 @@ set_local_config() {
     npm config set proxy "$http_proxy"
     npm config set https-proxy "$https_proxy"
     npm set strict-ssl false
-    npm config list
 }
 
 run_if_present() {
